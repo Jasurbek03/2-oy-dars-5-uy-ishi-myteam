@@ -538,7 +538,6 @@ button {
 
 
 /* ABOUT page HTML */
-
 /* MAIN */
 
 /* SECTION-ABOUT */
@@ -548,7 +547,7 @@ button {
   background-image: url(../images/bcg-img-about-first.png);
   background-repeat: no-repeat;
   background-size: 100px 200px;
-  background-position: right bottom;
+  background-position: calc(50% - -663px) 130px;
 }
 
 .about-content {
@@ -587,11 +586,12 @@ button {
   background-image: url(../images/bcg-img-about-second.png), url(../images/bcg-img-home-fourth.png);
   background-repeat: no-repeat;
   background-size: 100px 200px, 147px 100px;
-  background-position: top left, right bottom;
+  background-position: calc(50% - 683px) 0px, calc(50% - -640px) 888px;
 }
 
 .directors-inner {
-  padding: 150px 0;
+  padding-top: 150px;
+  padding-bottom: 80px;
   text-align: center;
 }
 
@@ -719,7 +719,7 @@ button {
   background-image: url(../images/bcg-img-about-foueth.png);
   background-repeat: no-repeat;
   background-size: 200px 200px;
-  background-position: top left;
+  background-position: calc(50% - 620px) 0px;
 }
 
 .clients-inner {
@@ -775,7 +775,9 @@ button {
 }
 
 
+/* CONTACT page HTML */
 /* MAIN */
+
 /* SECTION-CONTACT */
 
 .site-contact {
@@ -783,7 +785,7 @@ button {
   background-image: url(../images/bcg-img-about-second.png), url(../images/bcg-img-contact.png);
   background-repeat: no-repeat;
   background-size: 100px 200px, 100px 226px;
-  background-position: top left, right bottom;
+  background-position: calc(50% - 678px) 125px, calc(50% - -640px) 457px;
 }
 
 .contact-inner {
